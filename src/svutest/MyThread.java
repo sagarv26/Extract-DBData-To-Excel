@@ -34,9 +34,9 @@ public class MyThread {
 		
 		
 		try {
-			String url="jdbc:oracle:thin:@sun12.albertsons.com:1532:FIN1DEV1";
-			String user="ABSN_READ";
-			String password="dev1absnread";
+			String url="jdbc:oracle:thin:@test.com:1532:something";
+			String user="user";
+			String password="password";
 			DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
 			Connection conn=DriverManager.getConnection(url, user, password);
 			
